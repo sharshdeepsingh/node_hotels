@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const db = require('./db');
-const Person = require('./models/person'); // Use lowercase 'models' if your folder is named 'models'
-const Menu = require('./Models/menu');
+const Person = require('./Models/Person'); // Use lowercase 'models' if your folder is named 'models'
+const Menu = require('./Models/Menu');
 require('dotenv').config();
 
 const bodyParser = require('body-parser');
