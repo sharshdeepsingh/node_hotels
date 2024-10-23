@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const db = require('./db');
-const Person = require('./models/person');
-const Menu = require('./models/menu');
+const Person = require('./Models/person');
+const Menu = require('./Models/menu');
 require('dotenv').config();
 
 const bodyParser = require('body-parser');
